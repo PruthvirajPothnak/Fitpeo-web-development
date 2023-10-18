@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+Step 1: Install the Node.js 
+Step 2: Upload the project folder
+Step 3: Open the terminal and run "npm install" command
+Step 4: Then run "cd my-app" 
+Step 5: To use this code, you need to install the `react-chartjs-2` library using npm: npm install react-chartjs-2 chart.js
+Step 6: Then rum the command "npm start" on terminal to run the Project
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
