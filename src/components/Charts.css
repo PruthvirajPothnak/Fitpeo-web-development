@@ -1,0 +1,86 @@
+/* Add this CSS code to style the Charts component */
+.charts-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1000px;
+    height: 600px;
+  }
+  
+  .bar-chart {
+    width: 65%;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chart-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pie-chart {
+    width: 35%;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .chart-heading h2 {
+    font-size: 24px;
+  }
+  
+  .chart-heading p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .pie-legend {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .legend-color.blue {
+    background-color: #003f5c;
+  }
+  
+  .legend-color.white {
+    background-color: #8eb4d1;
+  }
+  
+  .legend-color.pink {
+    background-color: #e7d4cc;
+  }
+  
+  .center-text {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,73 @@
+/* MainLayout.css */
+
+  .main-layout {
+    width: 100%;
+    background-color: whitesmoke;
+  }
+  .column {
+    flex: 1;
+    flex-direction: column;
+    gap: 10%; 
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    padding-left: 1%;
+  }
+  
+
+  .custom-card {
+    display: flex;
+    height: 160px;
+    width: 280px;
+    background-color: white;
+    border: 15px solid whitesmoke;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  
+  .custom-card-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .custom-card-image img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  
+  
+  .custom-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    
+  }
+  
+  .custom-card-title {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .custom-card-amount {
+    font-size: 28px;
+    color: black;
+  }
+  
+  .custom-card-increase {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .highlighted {
+    color: rgb(18, 184, 18);
+    font-weight: bold;
+  }
+
+  
